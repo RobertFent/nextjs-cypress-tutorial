@@ -1,0 +1,26 @@
+{
+	"name": "nextjs-cypress-tutorial",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "API_URL=https://dummyjson.com next dev",
+		"dev:cypress": "API_URL=http://localhost:9000 next dev",
+		"cypress": "cypress open --e2e",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "15.4.7",
+		"react": "19.1.0",
+		"react-dom": "19.1.0"
+	},
+	"devDependencies": {
+		"cypress": "^14.5.4",
+		"eslint": "^9.33.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-cypress": "^5.1.1",
+		"eslint-plugin-prettier": "^5.5.4",
+		"mockttp": "^4.1.0",
+		"prettier": "^3.6.2"
+	}
+}
